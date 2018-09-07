@@ -4,7 +4,7 @@ import android.content.Context
 import android.content.SharedPreferences
 
 /**
- * Created by tangchao on 2017/8/25.
+ * SharedPreferences存储
  */
 class StorageUtils private constructor(context: Context, repositoryName: String) {
 
