@@ -1,3 +1,6 @@
+## `0.0.3`
+- 修复依赖包 `META-INF/library_release.kotlin_module` 重复冲突
+
 ## `0.0.2`
 - 升级 kotlin to 1.2.71
 - 升级 gradle to 4.10.2
