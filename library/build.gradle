@@ -9,6 +9,7 @@ def vName = "0.0.2"
 
 android {
     compileSdkVersion 27
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         minSdkVersion 15
