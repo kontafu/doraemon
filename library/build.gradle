@@ -5,7 +5,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 
 group = 'com.github.kontafu'
 
-def vName = "0.0.2"
+def vName = "0.0.4"
 
 android {
     compileSdkVersion 27
@@ -38,9 +38,9 @@ android {
         abortOnError false
     }
 
-    packagingOptions {
-        exclude 'META-INF/library_release.kotlin_module'
-    }
+//    packagingOptions {
+//        exclude 'META-INF/library_release.kotlin_module'
+//    }
 }
 
 task generateSourceJar(type: Jar) {
