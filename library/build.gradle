@@ -5,7 +5,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 
 group = 'com.github.kontafu'
 
-def vName = "0.0.4"
+def vName = "0.0.6"
 
 android {
     compileSdkVersion 27
@@ -38,9 +38,8 @@ android {
         abortOnError false
     }
 
-    //    compileReleaseKotlin.
-    kotlinOptions{
-        freeCompilerArgs += ["-module-name", "my.library.id"]
+    kotlinOptions {
+        freeCompilerArgs += ["-module-name", "doraemon"]
     }
 }
 
