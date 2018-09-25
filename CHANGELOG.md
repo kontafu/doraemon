@@ -1,3 +1,6 @@
+## `0.0.6`
+- 修复 kotlin module 打包提示重复的问题
+
 ## `0.0.3`
 - 修复依赖包 `META-INF/library_release.kotlin_module` 重复冲突
 
