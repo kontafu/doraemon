@@ -38,9 +38,10 @@ android {
         abortOnError false
     }
 
-//    packagingOptions {
-//        exclude 'META-INF/library_release.kotlin_module'
-//    }
+    //    compileReleaseKotlin.
+    kotlinOptions{
+        freeCompilerArgs += ["-module-name", "my.library.id"]
+    }
 }
 
 task generateSourceJar(type: Jar) {
