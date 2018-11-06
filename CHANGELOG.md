@@ -1,3 +1,7 @@
+## `0.1.0`
+- 升级 kotlin to 1.3.0
+- support library 迁移到 androidX
+
 ## `0.0.6`
 - 修复 kotlin module 打包提示重复的问题
 

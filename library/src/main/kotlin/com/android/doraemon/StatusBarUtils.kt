@@ -3,7 +3,7 @@ package com.android.doraemon
 import android.app.Activity
 import android.graphics.Color
 import android.os.Build
-import android.support.annotation.ColorInt
+import androidx.annotation.ColorInt
 import android.view.View
 import android.view.WindowManager
 import com.readystatesoftware.systembartint.SystemBarTintManager

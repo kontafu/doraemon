@@ -1,7 +1,7 @@
 package com.android.doraemon
 
 import android.os.Build
-import android.support.design.widget.TabLayout
+import com.google.android.material.tabs.TabLayout
 import android.view.ViewGroup
 
 /**
